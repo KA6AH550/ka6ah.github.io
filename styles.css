@@ -1,0 +1,118 @@
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav ul li a.active {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.3rem 0.6rem;
+}
+
+nav ul {
+    list-style: none;
+    background: #444;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+section {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+    background: #f9f9f9; /* Светло-серый фон для улучшения контраста */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #222; /* Более насыщенный цвет текста */
+}
+
+section h2 {
+    text-align: center;
+    color: #1a1a1a; /* Более глубокий цвет для заголовков */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+section h3 {
+    margin-top: 1.5rem;
+    color: #333; /* Чёткий, но не слишком яркий цвет */
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+section p, section ul li {
+    color: #444; /* Контрастный цвет текста */
+    line-height: 1.8; /* Пространство между строками для удобства чтения */
+    font-size: 1rem;
+}
+
+section ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+    margin-bottom: 1rem;
+}
+
+section ul li {
+    margin-bottom: 0.75rem; /* Отступы между пунктами списка */
+}
+
+section ul li strong {
+    color: #111; /* Углублённый цвет для ключевых терминов */
+    font-weight: bold; /* Выделение ключевых слов */
+}
+
